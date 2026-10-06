@@ -1,0 +1,48 @@
+# Keil MDK-ARM 编译中间产物及输出目录
+MDK-ARM/Test0/
+MDK-ARM/*/
+!MDK-ARM/RTE/
+DebugConfig/
+Listings/
+Objects/
+
+# 编译器与链接器临时文件
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.obj
+*.omf
+*.plg
+*.rpt
+*.tmp
+*.__i
+*.crf
+*.o
+*.d
+*.axf
+*.tra
+*.dep
+*.htm
+*.map
+*.build_log.htm
+*.iex
+*.bin
+*.hex
+build_log.txt
+build.log
+JLinkLog.txt
+
+# Keil 用户个性化配置 (窗口布局、上次断点等)
+*.uvgui.*
+*.uvguix.*
+
+# 编辑器与系统临时文件
+.vscode/
+.openchrome/
+.history/
+.DS_Store
+Thumbs.db
